@@ -1,0 +1,155 @@
+h1{
+    text-shadow: 2px 2px;
+}
+.titel1,.titel2,.titel3,.titel4{
+   max-width: 90%;
+    height: 50%;
+     text-align: justify;
+     margin-left: 23px;
+}
+.tick1,.tick2,.tick3,.tick4{
+    width: 20px;
+    height: 20px;
+    margin-top: 23px;
+    margin-left: 258px;
+    position: fixed;
+  }
+
+.edit1,.edit2,.edit3,.edit4{
+    width: 20px;
+    height: 20px;
+    margin-top: 23px;
+    margin-left: 294px;
+    position: fixed;
+}
+.recycel1,.recycel2,.recycel3,.recycel4{
+    width: 25px;
+    height: 25px;
+    margin-top: 19px;
+    margin-left: 321px;
+    position: fixed;
+}
+.span1,.span2,.span3,.span4{
+    background-color: blueviolet;
+    color: #fefefe;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: small;
+}
+.bt1{
+    border: none;
+    background-color: rgb(45, 45, 250);
+    color: #fefefe;
+}
+body{
+    background-color:  rgba(137, 43, 226,0.687);
+}
+h1 ,input,.bt{
+    margin-left: 800px;
+  
+    
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: solid blue;
+    border-width: 1px;
+    color: #fefefe;
+}
+.modal1,.modal2,.modal3,.modal4{
+    border-radius: 10px;
+    width: 360px;
+     height: 221px;
+    
+    display: none;
+    background-color: #fefefe;
+    
+    animation-duration: 2s;
+    animation-duration: normal;
+   
+    position: fixed;
+    
+
+}
+.modal1{
+    animation-name: anime1;
+    margin-left: 50px;
+}
+
+.modal2{
+    animation-name: anime2;
+    margin-left: 500px;
+}
+
+.modal3{
+    animation-name: anime3;
+    margin-left: 950px;
+}
+.modal4{
+    animation-name: anime4;
+    margin-left: 1400px;
+}
+
+.divClose{
+    animation-name: exit;
+    /* display: none; */
+    animation-duration: 2s;
+    animation-duration: normal;
+    margin-right: 3000px ;
+    margin-left: -1000px;
+    
+}
+
+@keyframes anime1{
+    from{
+        margin-left: 2000px;
+    }
+    to{margin-left: 50px;}
+}
+@keyframes anime2{
+    from{
+        
+        margin-left: 2000px;
+    }
+    to{margin-left: 500px;
+        
+    }
+    
+}
+@keyframes anime3{
+    from{
+        
+        margin-left: 2000px;
+    }
+    to{margin-left: 950px;
+        
+        
+    }
+  
+    
+}
+
+@keyframes anime4{
+    from{
+        
+        margin-left: 2000px;
+    }
+    to{margin-left: 1400px;
+        
+        
+    }
+  
+    
+}
+@keyframes exit {
+    from{
+       
+    }
+    to{margin-left: -1000px;}
+        
+}
