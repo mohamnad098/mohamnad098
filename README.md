@@ -1,5 +1,6 @@
-<h3 style="align-items: center;">
-  <p>
-    پروزه تودو لیست با قابلیت ثبت تغیررات / متحرک  با استفاده از انیمیشن 
-  </p>
-</h1>
+<h3 style="display: flex;" >
+        <p  style="margin-left: auto;margin-right: auto;">
+
+          سلام
+        </p>
+    </h3>
